@@ -23,3 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('bosya.urls')),
 ]
+
+handler404 = pageNotFound
